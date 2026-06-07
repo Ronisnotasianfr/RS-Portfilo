@@ -38,8 +38,7 @@ export const items = [
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'Modern JavaScript (ES6+) for building interactive and dynamic web applications with clean, maintainable code.',
 		logo: Assets.JavaScript,
 		name: 'Javascript',
 		category: 'pro-lang'
@@ -47,17 +46,31 @@ export const items = [
 	defineSkill({
 		slug: 'ts',
 		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'TypeScript for type-safe, scalable applications with improved developer experience and code reliability.',
 		logo: Assets.TypeScript,
 		name: 'Typescript',
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'java',
+		color: 'orange',
+		description: 'Java for building robust, scalable applications with strong OOP principles and extensive ecosystem.',
+		logo: Assets.Java,
+		name: 'Java',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'python',
+		color: 'blue',
+		description: 'Python for backend development, AI/ML, and scripting with FastAPI for modern async web frameworks.',
+		logo: Assets.Python,
+		name: 'Python',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'css',
 		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'CSS3 for responsive, accessible, and beautifully styled web applications with modern layout techniques.',
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -65,8 +78,7 @@ export const items = [
 	defineSkill({
 		slug: 'html',
 		color: 'orange',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'HTML5 for semantic, accessible markup that forms the foundation of modern web applications.',
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
@@ -74,20 +86,34 @@ export const items = [
 	defineSkill({
 		slug: 'sass',
 		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'Sass for more powerful and maintainable stylesheets with variables, nesting, and mixins.',
 		logo: Assets.Sass,
 		name: 'Sass',
 		category: 'markup-style'
 	}),
 	defineSkill({
+		slug: 'tailwind',
+		color: 'cyan',
+		description: 'Tailwind CSS for rapid UI development with utility-first CSS and consistent design systems.',
+		logo: Assets.Tailwind,
+		name: 'Tailwind CSS',
+		category: 'markup-style'
+	}),
+	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'React for building dynamic, component-based user interfaces with efficient rendering and state management.',
 		logo: Assets.ReactJs,
-		name: 'React Js',
+		name: 'React',
 		category: 'library'
+	}),
+	defineSkill({
+		slug: 'nextjs',
+		color: 'black',
+		description: 'Next.js for full-stack React applications with SSR, SSG, API routes, and optimized performance.',
+		logo: Assets.Vite,
+		name: 'Next.js',
+		category: 'framework'
 	}),
 	defineSkill({
 		slug: 'svelte',
@@ -96,6 +122,102 @@ export const items = [
 		logo: Assets.Svelte,
 		name: 'Svelte',
 		category: 'library'
+	}),
+	defineSkill({
+		slug: 'nodejs',
+		color: 'green',
+		description: 'Node.js for building fast, scalable backend services with JavaScript runtime.',
+		logo: Assets.NodeJs,
+		name: 'Node.js',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'fastapi',
+		color: 'teal',
+		description: 'FastAPI for building modern, high-performance Python APIs with automatic documentation.',
+		logo: Assets.FastApi,
+		name: 'FastAPI',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'supabase',
+		color: 'green',
+		description: 'Supabase for open-source Firebase alternative with PostgreSQL backend and real-time features.',
+		logo: Assets.PostgreSQL,
+		name: 'Supabase',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'postgresql',
+		color: 'blue',
+		description: 'PostgreSQL for reliable, feature-rich relational database management.',
+		logo: Assets.PostgreSQL,
+		name: 'PostgreSQL',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'firebase',
+		color: 'orange',
+		description: 'Firebase for real-time databases, authentication, and cloud services.',
+		logo: Assets.Firebase,
+		name: 'Firebase',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'sql',
+		color: 'red',
+		description: 'SQL for querying and managing relational databases efficiently.',
+		logo: Assets.PostgreSQL,
+		name: 'SQL',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'git',
+		color: 'orange',
+		description: 'Git for version control and collaborative development workflows.',
+		logo: Assets.Git,
+		name: 'Git',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'github',
+		color: 'black',
+		description: 'GitHub for repository hosting, collaboration, and CI/CD pipelines.',
+		logo: Assets.GitHub,
+		name: 'GitHub',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'vscode',
+		color: 'blue',
+		description: 'VS Code for modern, powerful code editing and development environment.',
+		logo: Assets.VsCode,
+		name: 'VS Code',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'vercel',
+		color: 'black',
+		description: 'Vercel for deploying and hosting modern web applications with optimal performance.',
+		logo: Assets.Vercel,
+		name: 'Vercel',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'cicd',
+		color: 'purple',
+		description: 'CI/CD Pipelines for automated testing, building, and deployment workflows.',
+		logo: Assets.Docker,
+		name: 'CI/CD Pipelines',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'linux',
+		color: 'orange',
+		description: 'Linux and Bash for command-line development and server management.',
+		logo: Assets.Linux,
+		name: 'Linux/Bash',
+		category: 'devtools'
 	})
 ] as const;
 
