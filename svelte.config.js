@@ -14,7 +14,7 @@ const config = {
 		}
 	},
 	kit: {
-		adapter: adapter({ fallback: '404.html' }),
+		adapter: process.env.VERCEL ? adapter() : adapter({ fallback: '404.html' }),
 		alias: {
 			$lib: './src/lib',
 			'@data': './src/lib/data',
