@@ -30,7 +30,7 @@ export const items: Array<Experience> = [
 		name: 'Open Source Developer – Buck2 Build System',
 		color: 'red',
 		links: [],
-		logo: Assets.Rust,
+		logo: Assets.Meta,
 		shortDescription: 'Contributing to Meta\'s large-scale open-source build system.'
 	},
 	{

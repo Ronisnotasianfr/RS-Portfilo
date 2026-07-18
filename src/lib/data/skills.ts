@@ -9,7 +9,7 @@ const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
 	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
 	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
-	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
+	defineSkillCategory({ name: 'Languages', slug: 'lang' }),
 	defineSkillCategory({ name: 'Databases', slug: 'db' }),
 	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
 	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
@@ -111,7 +111,7 @@ export const items = [
 		slug: 'nextjs',
 		color: 'black',
 		description: 'Next.js for full-stack React applications with SSR, SSG, API routes, and optimized performance.',
-		logo: Assets.Vite,
+		logo: Assets.NextJs,
 		name: 'Next.js',
 		category: 'framework'
 	}),
@@ -143,7 +143,7 @@ export const items = [
 		slug: 'supabase',
 		color: 'green',
 		description: 'Supabase for open-source Firebase alternative with PostgreSQL backend and real-time features.',
-		logo: Assets.PostgreSQL,
+		logo: Assets.Supabase,
 		name: 'Supabase',
 		category: 'db'
 	}),
@@ -167,7 +167,7 @@ export const items = [
 		slug: 'sql',
 		color: 'red',
 		description: 'SQL for querying and managing relational databases efficiently.',
-		logo: Assets.PostgreSQL,
+		logo: Assets.Sql,
 		name: 'SQL',
 		category: 'db'
 	}),
@@ -207,7 +207,7 @@ export const items = [
 		slug: 'cicd',
 		color: 'purple',
 		description: 'CI/CD Pipelines for automated testing, building, and deployment workflows.',
-		logo: Assets.Docker,
+		logo: Assets.Cicd,
 		name: 'CI/CD Pipelines',
 		category: 'devops'
 	}),
